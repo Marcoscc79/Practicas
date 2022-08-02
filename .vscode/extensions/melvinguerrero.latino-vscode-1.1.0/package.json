@@ -1,0 +1,194 @@
+{
+	"name": "latino-vscode",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.1.0",
+	"publisher": "MelvinGuerrero",
+	"license": "MIT",
+	"author": {
+		"email": "melvin_guerrero@yahoo.com",
+		"name": "Melvin Guerrero",
+		"url": "https://github.com/MelvinG24"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"icon": "images/Latino-Logo.png",
+	"categories": [
+		"Programming Languages",
+		"Debuggers",
+		"Language Packs",
+		"Formatters",
+		"Snippets",
+		"Other"
+	],
+	"keywords": [
+		"latino",
+		"lenguaje",
+		"languages",
+		"lenguaje latino",
+		"lenguaje-latino"
+	],
+	"galleryBanner": {
+		"color": "#449eec",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/MelvinG24/Latino-VSCode/issues",
+		"email": "melvin_guerrero@yahoo.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MelvinG24/Latino-VSCode.git"
+	},
+	"homepage": "https://github.com/MelvinG24/Latino-VSCode",
+	"main": "./src/extension.js",
+	"activationEvents": [
+		"onLanguage:latino",
+		"onCommand:latino.correr",
+		"onCommand:latino.debug",
+		"onCommand:latino.config",
+		"workspaceContains:**/.latVSCodeConfig",
+		"workspaceContains:/.vscode/latino_properties.json"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"language": "latino",
+				"scopeName": "source.latino",
+				"path": "./syntaxes/latino.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "latino",
+				"path": "./snippets/latino.snippets.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "latino.config",
+				"title": "Configurar Latino",
+				"category": "Configuracion"
+			},
+			{
+				"command": "latino.debug",
+				"title": "Debugear Latino",
+				"category": "debuging"
+			},
+			{
+				"command": "latino.correr",
+				"title": "Correr Latino",
+				"category": "debugin",
+				"icon": "$(run)"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "latino.correr",
+				"key": "ctrl+alt+r",
+				"mac": "cmd+alt+r"
+			}
+		],
+		"debuggers": [
+			{
+				"type": "latino",
+				"label": "Latino Debug",
+				"program": "C:/Program Files/Latino/bin/latino.exe",
+				"runtime": "latino.exe",
+				"languages": [
+					"latino",
+					"Latino"
+				]
+			}
+		],
+		"breakpoints": [
+			{
+				"language": "latino"
+			}
+		],
+		"terminal": {
+			"profiles": [
+				{
+					"id": "terminalTest.terminal-profile",
+					"icon": "terminal",
+					"title": "Latino Terminal"
+				}
+			]
+		},
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == latino",
+					"command": "latino.correr",
+					"group": "navigation"
+				}
+			]
+		},
+		"languages": [
+			{
+				"id": "latino",
+				"extensions": [
+					".lat"
+				],
+				"aliases": [
+					"latino",
+					"Latino",
+					"lenguaje latino",
+					"lenguaje-latino"
+				],
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"light": "./images/iconsFiles/icons/Lenguaje_Latino-Icon.svg",
+					"dark": "./images/iconsFiles/icons/Lenguaje_Latino-Icon.svg"
+				}
+			}
+		],
+		"walkthroughs": [
+			{
+				"id": "latino",
+				"title": "Empiece a utilizar Latino para VSCode",
+				"description": "De sus primeros pasos para configurar Latino en VSCode",
+				"steps": [
+					{
+						"id": "latinocorrer",
+						"title": "Latino binario",
+						"description": "Este paso es para configurar la ruta donde se ubica el binario de Latino en su sistema\n[Buscar Binario](command:latino.config)",
+						"media": {
+							"image": ".readme/buscarBinario.gif",
+							"altText": "Latino_binario_img"
+						}
+					},
+					{
+						"id": "latinodoc",
+						"title": "Documentación de Latino",
+						"description": "Lee la documentación de Latino para guiarte en el uso de este lenguaje de programación\n[Documentación](command:latino.doc)",
+						"media": {
+							"markdown": ".readme/markdown.md"
+						}
+					}
+				]
+			}
+		],
+		"configuration": {
+			"title": "Lenguaje-Latino",
+			"properties": {
+				"Latino-propiedades.RutaBinarioLatino": {
+					"type": "string",
+					"description": "Especifique la ruta del binario de Latino en su sistema",
+					"scope": "machine-overridable"
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "a00eade5-9de5-426e-9060-f6c2375cb8f0",
+		"publisherDisplayName": "Melvin Guerrero",
+		"publisherId": "558a8ac7-ee04-4398-b7e5-c43b7a51c3ae",
+		"isPreReleaseVersion": false,
+		"targetPlatform": "undefined",
+		"updated": true,
+		"preRelease": false,
+		"installedTimestamp": 1656966826260
+	}
+}

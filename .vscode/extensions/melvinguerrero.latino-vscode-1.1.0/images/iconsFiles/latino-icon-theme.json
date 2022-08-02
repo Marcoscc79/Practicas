@@ -1,0 +1,22 @@
+{
+    "iconDefinitions": {
+		"_f_latino":{
+			"iconPath": "icons/Lenguaje_Latino-Icon.svg"
+		}
+    },
+	"file": "_file_dark",
+	"fileExtensions": {},
+	"fileNames": {},
+	"languageIds": {
+		"lat": "_f_latino"
+	},
+	"light": {
+		"file": "_file_light",
+		"fileExtensions": {},
+		"fileNames": {},
+		"languageIds": {
+			"lat": "_f_latino"
+		}
+	},
+	"highContrast": {}
+}
