@@ -1,0 +1,61 @@
+# Vim 8.2 generÃ³ este archivo "viminfo".
+# Puede editarlo, Â¡sÃ³lo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribiÃ³ este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historia de LÃ­nea de Ã³rdenes (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
+:q!
+|2,0,1637369511,,"q!"
+:q
+|2,0,1637362545,,"q"
+
+# Historia de Cadena de bÃºsqueda (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
+
+# Historia de ExpresiÃ³n (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
+
+# Historia de LÃ­nea de entrada (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
+
+# Historia de Debug Line (de lo mÃ¡s nuevo a lo mÃ¡s antiguo):
+
+# Registros:
+"a	CHAR	0
+	1€ku€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr
+|3,0,10,0,1,0,1637362475,"1€ku€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr"
+
+# Marcas en el archivo:
+'0  1  0  ~/Desktop/Otra Prueba Git/.git/MERGE_MSG
+|4,48,1,0,1637369511,"~/Desktop/Otra Prueba Git/.git/MERGE_MSG"
+'1  11  0  ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+|4,49,11,0,1637362560,"~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG"
+
+# Lista de saltos (el mÃ¡s reciente va primero):
+-'  1  0  ~/Desktop/Otra Prueba Git/.git/MERGE_MSG
+|4,39,1,0,1637369511,"~/Desktop/Otra Prueba Git/.git/MERGE_MSG"
+-'  11  0  ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+|4,39,11,0,1637362560,"~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG"
+-'  11  0  ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+|4,39,11,0,1637362560,"~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+|4,39,1,0,1637362301,"~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+|4,39,1,0,1637362301,"~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG"
+
+# Historia de las marcas en los archivos (de la mÃ¡s reciente a la mÃ¡s antigua):
+
+> ~/Desktop/Otra Prueba Git/.git/MERGE_MSG
+	*	1637369442	0
+	"	1	0
+
+> ~/Desktop/Otra Prueba Git/.git/COMMIT_EDITMSG
+	*	1637362484	0
+	"	11	0
+	^	1	21
+	.	2	0
+	+	2	0
